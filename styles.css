@@ -1,0 +1,119 @@
+body {
+    background-image: url(dumbbell-gbc159361a_1920.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    color: white;
+    height: 1200px;
+}
+
+.logo {
+
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.gyml {
+    width: 48px;
+    filter: invert(100%);
+}
+
+.menu {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.log {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+
+.section li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section li {
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 24px 5px; */
+    font-family: 'Kanit', sans-serif;
+    margin: 17px;
+}
+
+.btn {
+    height: 40px;
+    width: 80px;
+    border-radius: 9px;
+    margin: 10px;
+    background-color: #B2B1B9;
+    border: none;
+    padding: 3px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.section li a:hover,
+.section li a:active {
+    color: #7B8FA1;
+}
+
+.btn:hover {
+    background-color: #DDDDDD;
+}
+
+.submit {
+    /* margin: 2px; */
+    padding: 2px;
+    width: 500px;
+    /* border: 2px solid red; */
+    background-color: #222222;
+    border-radius: 20px;
+    text-align: center;
+    margin: 70px auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+.form-group input {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.btn-down {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Kanit', sans-serif;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #B2B1B9;
+    border: none;
+}
+
+.btn-down:hover {
+    background-color: #DDDDDD;
+    width: 90%;
+    height: 50px;
+}
+
+.form-group input:hover {
+    width: 80%;
+    height: 50px;
+    background-color: #434242;
+}
